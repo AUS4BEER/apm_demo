@@ -1,12 +1,37 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>Power BI Publish to Web Test</title>
+  <meta charset="UTF-8" />
+  <title>Power BI Publish to Web</title>
+
+  <style>
+    html, body {
+      margin: 0;
+      padding: 0;
+    }
+
+    .pbi-wrapper {
+      width: 100%;
+      aspect-ratio: 16 / 9; /* keeps report proportional */
+    }
+
+    .pbi-wrapper iframe {
+      width: 100%;
+      height: 100%;
+      border: none;
+    }
+  </style>
 </head>
 <body>
-  <h1>DOR AJCC Collaboaration</h1>
 
-  <iframe title="DOR AJCC Collaboration_Agg" width="1366" height="768" src="https://app.powerbi.com/reportEmbed?reportId=3c2fd6d2-87f3-419c-9710-02893fe9d1f3&autoAuth=true&embeddedDemo=true" frameborder="0" allowFullScreen="true"></iframe>
+  <div class="pbi-wrapper">
+<iframe title="DOR AJCC Collaboration_Agg" width="1280" height="720" src="https://app.powerbi.com/reportEmbed?reportId=3c2fd6d2-87f3-419c-9710-02893fe9d1f3&autoAuth=true&embeddedDemo=true" frameborder="0" allowFullScreen="true"></iframe>
+  </div>
+
 </body>
 </html>
+``
+
+
+
+<iframe title="DOR AJCC Collaboration_Agg" width="1140" height="541.25" src="https://app.powerbi.com/reportEmbed?reportId=3c2fd6d2-87f3-419c-9710-02893fe9d1f3&autoAuth=true&embeddedDemo=true" frameborder="0" allowFullScreen="true"></iframe>
